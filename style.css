@@ -1,0 +1,31 @@
+body{
+    background-color: #F4E8C6;
+}
+
+/*Dit haalt de media controls weg*/
+video::-webkit-media-controls {
+    display: none;
+  }
+
+  /* weergave van de scenes */
+  #scene_rest {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  /* icons */  
+  .column {
+        flex: 33.33%;
+        padding: 0px 25px 0px 25px;
+      }
+  
+  #row {
+    display: flex;
+    width: 40%;
+    margin: auto;
+
+  }
+  
+  

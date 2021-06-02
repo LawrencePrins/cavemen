@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Caveman</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <video width="900" height="600" autoplay="autoplay" controls onended="loadRest()" id="scene_rest">
+            <source src="videos/scene_rest.mp4" type="video/mp4" />
+          </video>
+
+          <div id="row">
+          <div class="column"><img src="buttons/1.png" onclick="loadDino()" value="Load Video dino" width="100%"/></div>
+          <div class="column"><img src="buttons/2.png" onclick="loadMeteor()" value="Load Video rest" width="100%" /></div>
+          <div class="column"><img src="buttons/3.png" onclick="loadAlien()" value="Load Video alien" width="100%" /></div>
+          </div>
+
+        <script src="javascript.js" async defer></script>
+    </body>
+</html>
