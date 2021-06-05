@@ -1,5 +1,5 @@
 body{
-    background-color: #F4E8C6;
+    background-color: #f4e8c0;
 }
 
 /*Dit haalt de media controls weg*/
@@ -18,13 +18,17 @@ video::-webkit-media-controls {
   /* icons */  
   .column {
         flex: 33.33%;
-        padding: 0px 25px 0px 25px;
+        padding: 0px 50px 0px 50px;
+        transition: transform .2s;
+      }
+  .column:hover {
+transform: scale(1.15);
       }
   
   #row {
     display: flex;
-    width: 40%;
     margin: auto;
+    width: 55%;
 
   }
   
