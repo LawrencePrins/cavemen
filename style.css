@@ -2,14 +2,10 @@ body{
     background-color: #F5E7C7;
 }
 
-#mydiv{
+#loader{
   position: fixed;
   display: block;
-  z-index: 100;
-  background-color: black;
-}
-  
-  
+} 
 
 /*Dit haalt de media controls weg*/
 video::-webkit-media-controls {
@@ -23,7 +19,6 @@ video::-webkit-media-controls {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    z-index: -100;
   }
 
   /* icons */  
@@ -40,7 +35,6 @@ transform: scale(1.15);
     display: flex;
     margin: auto;
     width: 55%;
-
   }
   
   
