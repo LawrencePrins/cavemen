@@ -7,7 +7,7 @@ $.each(vids, function(){
 
 setTimeout(function() {
        $('#mydiv').fadeOut('fast');
-   }, 4000); // <-- time in milliseconds
+   }, 3000); // <-- time in milliseconds
 
 
 function loadDino() {
