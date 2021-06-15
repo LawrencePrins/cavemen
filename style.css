@@ -4,14 +4,12 @@ body{
 
 #mydiv{
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
   display: block;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  z-index: 100;
+  background-color: black;
 }
+  
+  
 
 /*Dit haalt de media controls weg*/
 video::-webkit-media-controls {
@@ -20,6 +18,7 @@ video::-webkit-media-controls {
 
   /* weergave van de scenes */
   #scene_rest {
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
