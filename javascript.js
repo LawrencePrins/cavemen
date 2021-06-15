@@ -5,6 +5,10 @@ $.each(vids, function(){
 }); 
 //Loop though all Video tags and set Controls as false
 
+setTimeout(function() {
+       $('#mydiv').fadeOut('fast');
+   }, 5000); // <-- time in milliseconds
+
 
 function loadDino() {
     var videoEl = document.getElementsByTagName('video')[0];

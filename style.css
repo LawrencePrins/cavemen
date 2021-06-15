@@ -2,6 +2,14 @@ body{
     background-color: #F5E7C7;
 }
 
+#mydiv{
+  width: 100px;
+  height: 100px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
 /*Dit haalt de media controls weg*/
 video::-webkit-media-controls {
     display: none;
